@@ -1,7 +1,7 @@
 {
   "ReRoutes": [
     {
-      "DownstreamPathTemplate": "/api/{catchAll}",
+      "DownstreamPathTemplate": "/api/customers",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -9,10 +9,10 @@
           "Port": 7001
         }
       ],
-      "UpstreamPathTemplate": "/customer-api/{catchAll}"
+      "UpstreamPathTemplate": "/customer-api/customers"
     },
     {
-      "DownstreamPathTemplate": "/api/{catchAll}",
+      "DownstreamPathTemplate": "/api/employees",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -20,10 +20,10 @@
           "Port": 7002
         }
       ],
-      "UpstreamPathTemplate": "/employee-api/{catchAll}"
+      "UpstreamPathTemplate": "/employee-api/employees"
     },
     {
-      "DownstreamPathTemplate": "/api/{catchAll}",
+      "DownstreamPathTemplate": "/api/login",
       "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
@@ -31,7 +31,7 @@
           "Port": 7003
         }
       ],
-      "UpstreamPathTemplate": "/authentication-api/{catchAll}"
+      "UpstreamPathTemplate": "/authentication-api/login"
     }
   ],
   "GlobalConfiguration": {

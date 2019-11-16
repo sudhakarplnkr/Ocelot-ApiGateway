@@ -1,6 +1,7 @@
 ﻿namespace EmployeeApi.Controllers
 {
     using System.Collections.Generic;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
     [Route("api/employees")]
@@ -8,6 +9,7 @@
     public class EmployeeController : ControllerBase
     {
         // GET api/employees
+        [Authorize]
         [HttpGet, Route("")]
         public ActionResult<IEnumerable<Employee>> Get()
         {

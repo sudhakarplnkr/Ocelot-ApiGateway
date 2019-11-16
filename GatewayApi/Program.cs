@@ -8,12 +8,23 @@
     using Microsoft.Extensions.DependencyInjection;
     using Ocelot.DependencyInjection;
     using Ocelot.Middleware;
+    using System.IO;
 
     public class Program
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            IWebHostBuilder builder = new WebHostBuilder();
+            builder.ConfigureServices(s =>
+            {
+                s.AddSingleton(builder);
+            });
+            builder.UseKestrel()
+            .UseStartup<Startup>()
+                   .UseContentRoot(Directory.GetCurrentDirectory());
+
+            var host = builder.Build();
+            host.Run();
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

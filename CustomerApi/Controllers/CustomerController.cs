@@ -1,6 +1,7 @@
 ﻿namespace CustomerApi.Controllers
 {
     using System.Collections.Generic;
+    using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;
 
     [Route("api/customers")]
@@ -8,6 +9,7 @@
     public class CustomerController : ControllerBase
     {
         // GET api/customers
+        [Authorize]
         [HttpGet, Route("")]
         public ActionResult<IEnumerable<Customer>> Get()
         {
