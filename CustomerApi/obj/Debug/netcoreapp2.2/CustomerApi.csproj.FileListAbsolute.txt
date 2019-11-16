@@ -1,0 +1,16 @@
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\CustomerApi.deps.json
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\CustomerApi.runtimeconfig.json
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\CustomerApi.runtimeconfig.dev.json
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\CustomerApi.dll
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\CustomerApi.pdb
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.csprojAssemblyReference.cache
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.RazorAssemblyInfo.cache
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.RazorAssemblyInfo.cs
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.AssemblyInfoInputs.cache
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.AssemblyInfo.cs
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.RazorTargetAssemblyInfo.cache
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.dll
+D:\Sudhakar\Projects\Api\CustomerApi\obj\Debug\netcoreapp2.2\CustomerApi.pdb
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\appsettings.json
+D:\Sudhakar\Projects\Api\CustomerApi\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
