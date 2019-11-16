@@ -54,12 +54,21 @@
                 x.TokenValidationParameters = tokenValidationParameters;
             });
 
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder => builder.WithOrigins("*")
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());
+            });
+
             services.AddOcelot(Configuration);
         }
 
         public async void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseAuthentication();
+            app.UseCors();
             await app.UseOcelot();
         }
     }
